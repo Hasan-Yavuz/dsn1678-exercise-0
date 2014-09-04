@@ -12,12 +12,38 @@ img {
     width: 100%;   
 }
 
+body {
+    font-family: sans-serif;   
+}
+
+blockquote {
+    font-family: serif;
+}
+
+footer {
+    float: right;
+}
+
+dl {
+    overflow: hidden;
+    /* Overflow hidden is a clearfix
+    It remains the <dl> to wrap around its floated children*/
+}
+
 dd {
     float: left;
+    margin: 0;
+    padding: 0;
 }
 
 dt {
     float: left;
+    clear: left;
+    width: 8em;
+}
+
+a {
+    color: #a22544;
 }
         
         
